@@ -1,0 +1,9 @@
+{
+    "contextPath": "/",
+    "httpsPort": 3001,
+    "cloudantDB": "citadels",
+    "cloudantUser": "",
+    "cloudantPassword": "",
+    "jsonLimit": "1mb",
+    "numberOfPlayers": 4
+}
