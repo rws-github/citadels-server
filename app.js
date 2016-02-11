@@ -15,8 +15,8 @@ app.use(bodyParser.json({ limit: config.jsonLimit }));
 app.use(config.contextPath, router);
 
 var options = {
-    // key: fs.readFileSync("keys/server.key"),
-    // cert: fs.readFileSync("keys/server.crt")
+    key: fs.readFileSync("keys/key.pem"),
+    cert: fs.readFileSync("keys/cert.pem")
 };
 var httpsServer = https.createServer(options, app).listen(config.httpsPort, function() {
     console.log("listening with https on *:" + config.httpsPort);

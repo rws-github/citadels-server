@@ -35,3 +35,6 @@ node_modules
 # Eclipse
 .project
 .settings
+
+# Project
+keys
